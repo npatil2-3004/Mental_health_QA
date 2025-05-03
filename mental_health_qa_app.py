@@ -9,7 +9,6 @@ from sentence_transformers import SentenceTransformer
 from nltk.tokenize import sent_tokenize
 import nltk
 
-# ✅ FIRST Streamlit command
 st.set_page_config(page_title="Mental Health QA", layout="wide")
 
 # Ensure punkt is available
