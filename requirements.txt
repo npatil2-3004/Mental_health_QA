@@ -8,3 +8,4 @@ nltk
 spacy
 chromadb
 huggingface_hub[hf_xet]
+pydantic<2.0
