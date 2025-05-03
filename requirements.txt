@@ -1,10 +1,10 @@
 streamlit
 transformers
+sentence-transformers
 torch
+langchain
+langchain_community
 nltk
 spacy
-sentence-transformers
-scikit-learn
-requests
-langchain
 chromadb
+huggingface_hub[hf_xet]
