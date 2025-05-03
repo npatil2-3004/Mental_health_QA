@@ -1,0 +1,10 @@
+streamlit
+transformers
+torch
+nltk
+spacy
+sentence-transformers
+scikit-learn
+requests
+langchain
+chromadb
