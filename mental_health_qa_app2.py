@@ -31,7 +31,7 @@ qa_model, reranker, embedding_model = load_models()
 
 @st.cache_resource
 def load_data():
-    dataset = load_dataset("json", data_files="/Users/nikitapatil/Downloads/SQUAD_DATA.json", field="data")["train"]
+    dataset = load_dataset("json", data_files="SQUAD_DATA.json", field="data")["train"]
     docs = [Document(page_content=para["context"]) for sample in dataset for para in sample["paragraphs"]]
     splitter = NLTKTextSplitter(chunk_size=500, chunk_overlap=100)
     sentence_chunks = splitter.split_documents(docs)
